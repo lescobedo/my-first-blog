@@ -1,5 +1,5 @@
-from django.shortcuts import render
-from .models import Post
+from django.db import models
+from django.utils import timezone
 
 
 class Post(models.Model):
